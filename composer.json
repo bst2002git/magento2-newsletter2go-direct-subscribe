@@ -1,0 +1,19 @@
+{
+    "name": "imi/magento2-newsletter2go-direct-subscribe",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Menk",
+            "email": "a.menk@imi.de"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "IMI\\Newsletter2GoDirectSubscribe\\": ""
+        }
+    }
+}

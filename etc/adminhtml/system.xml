@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="newsletter" translate="label" type="text" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Newsletter</label>
+            <tab>customer</tab>
+            <resource>Magento_Newsletter::newsletter</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="newsletter2go_form_code" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Newsletter2Go Form Code</label>
+                    <comment>Leave empty to disable. You should disable the normal newsletter if this module is used.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

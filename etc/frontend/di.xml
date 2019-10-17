@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Customer\Block\Form\Register">
+        <plugin sortOrder="1" name="imiNewsletter2GoDirectSubscribe" type="\IMI\Newsletter2GoDirectSubscribe\Plugin\EnableNewsletterCheckboxInRegisterForm"/>
+    </type>
+    <type name="\Magento\Newsletter\Model\Subscriber">
+        <plugin sortOrder="1" name="imiNewsletter2GoDirectSubscribe" type="\IMI\Newsletter2GoDirectSubscribe\Plugin\InterceptSubscription"/>
+    </type>
+</config>
