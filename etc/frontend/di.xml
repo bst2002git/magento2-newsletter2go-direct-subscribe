@@ -6,4 +6,7 @@
     <type name="\Magento\Newsletter\Model\Subscriber">
         <plugin sortOrder="1" name="imiNewsletter2GoDirectSubscribe" type="\IMI\Newsletter2GoDirectSubscribe\Plugin\InterceptSubscription"/>
     </type>
+    <type name="\Magento\Customer\Block\Account\Dashboard\Info">
+        <plugin sortOrder="1" name="imiNewsletter2GoDirectSubscribe" type="\IMI\Newsletter2GoDirectSubscribe\Plugin\ResetNewsletterEnabledInDashboard"/>
+    </type>
 </config>
